@@ -10,11 +10,11 @@
 it's sample source code of the telegram inviter bot. This bot work by telegram desktop api key. Bot parse users id from other groups and after that add users to selected group
 ```mermaid
 erDiagram
-    Bot ||--|{ Parce : get group
+    Bot ||--|{ Parce : get_group
     Parce ||--|{ Database : save
     Bot }|..|{ Get users : upload
-    Get users }|..|{ Database
-    database }|..|{ Invite
+    Get users |..|{ Database
+    database |..|{ Invite
 ```
 
 ## installation
