@@ -91,4 +91,9 @@ start bot
 python3 bet.py
 ```
 ## settings
+If you want change api of the bot you can do that in config file
+```Python
+apiid = 0 #api id
+apihash = 'asfaf' #api hash
+```
 ## examples
