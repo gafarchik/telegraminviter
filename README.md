@@ -27,9 +27,11 @@ Install python 3.9 from [python.org](https://www.python.org/downloads/windows/).
 Add python to PATH, you can do than in install window
 ![Alt-текст](https://docs.blender.org/manual/ru/2.83/_images/about_contribute_install_windows_installer.png)
 
-After that open cmd and write 
+After that open cmd and write
+
 ```cd bot_directory```
 and 
+
 ```python bet.py```
 #### Linux
 Install python 3.9
