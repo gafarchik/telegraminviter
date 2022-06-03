@@ -1,7 +1,7 @@
 # telegraminviter
 - 1.how it's work
 - 2.installation
-    - install.py
+    - [install.py](examples)
     - Windows
     - Linux
     - Mac
