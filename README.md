@@ -13,9 +13,9 @@ erDiagram
     Bot ||--|{ Parce : start_parsing
     Parce ||--|{ Database : save
     Bot }|..|{ Get_users : start_inviting
-    Get_users |..|{ database : upload
-    database |..|{ Invite : save_to_list
-    Invite |..|{ 
+    Get_users }|..|{ database : upload
+    database }|..|{ Invite : save_to_list
+    Invite }|..|{ 
 ```
 
 ## installation
