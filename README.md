@@ -28,7 +28,7 @@ erDiagram
     Invite }|..|{ 
 ```
 
-[⬆️Map](https://github.com/gafarchik/telegraminviter/edit/main/README.md#readme-map)
+[⬆️Map](https://github.com/gafarchik/telegraminviter#readme-map)
 
 
 
@@ -115,7 +115,7 @@ start bot
 python3 bet.py
 ```
 
-[⬆️Map](https://github.com/gafarchik/telegraminviter/edit/main/README.md#readme-map)
+[⬆️Map](https://github.com/gafarchik/telegraminviter#readme-map)
 
 
 
@@ -246,4 +246,4 @@ On_IWhite="\[\033[0;107m\]"   # White
 ```
 
 
-[⬆️Map](https://github.com/gafarchik/telegraminviter/edit/main/README.md#readme-map)
+[⬆️Map](https://github.com/gafarchik/telegraminviter#readme-map)
