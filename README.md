@@ -5,7 +5,8 @@
     - [Windows](https://github.com/gafarchik/telegraminviter/blob/main/README.md#windows)
     - [Linux](https://github.com/gafarchik/telegraminviter/blob/main/README.md#linux)
     - [Mac](https://github.com/gafarchik/telegraminviter/blob/main/README.md#mac)
-- [3.examples](https://github.com/gafarchik/telegraminviter/blob/main/README.md#examples)
+- [3.settings](https://github.com/gafarchik/telegraminviter/blob/main/README.md#settings)
+- [4.examples](https://github.com/gafarchik/telegraminviter/blob/main/README.md#examples)
 ## how it's work
 it's sample source code of the telegram inviter bot. This bot work by telegram desktop api key. Bot parse users id from other groups and after that add users to selected group
 ```mermaid
@@ -61,4 +62,33 @@ start bot
 python3 bet.py
 ```
 #### Mac
+Install [homebrew](https://brew.sh)
+```
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+check
+```
+$ brew doctor
+```
+```
+Output
+Your system is ready to brew.
+```
+install python
+```
+$ brew install python@3.9
+```
+open bot path
+```
+cd bot_path
+```
+install library
+```
+pip3 install telethon
+```
+start bot
+```
+python3 bet.py
+```
+## settings
 ## examples
