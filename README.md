@@ -1,4 +1,5 @@
 # telegraminviter
+## README map
 - [1.how it's work](https://github.com/gafarchik/telegraminviter/blob/main/README.md#how-its-work)
 - [2.installation](https://github.com/gafarchik/telegraminviter/blob/main/README.md#installation)
     - [install.py](https://github.com/gafarchik/telegraminviter/blob/main/README.md#installpy)
@@ -9,6 +10,12 @@
     - [API](https://github.com/gafarchik/telegraminviter/blob/main/README.md#api)
     - [Language](https://github.com/gafarchik/telegraminviter#language)
     - [Color](https://github.com/gafarchik/telegraminviter#color)
+
+
+
+
+
+
 ## how it's work
 it's sample source code of the telegram inviter bot. This bot work by telegram desktop api key. Bot parse users id from other groups and after that add users to selected group
 ```mermaid
@@ -21,10 +28,22 @@ erDiagram
     Invite }|..|{ 
 ```
 
+[⬆️Map](https://github.com/gafarchik/telegraminviter/edit/main/README.md#readme-map)
+
+
+
+
 ## installation
 install python 3.9
+
+
+
 #### install.py
 You can just open install.py and library will be installed 
+
+
+
+
 #### Windows
 Install python 3.9 from [python.org](https://www.python.org/downloads/windows/).
 Add python to PATH, you can do than in install window
@@ -36,6 +55,9 @@ After that open cmd and write
 and 
 
 ```python bet.py```
+
+
+
 #### Linux
 Install python 3.9
 ```
@@ -92,6 +114,13 @@ start bot
 ```
 python3 bet.py
 ```
+
+[⬆️Map](https://github.com/gafarchik/telegraminviter/edit/main/README.md#readme-map)
+
+
+
+
+
 ## settings
 #### API
 If you want change api of the bot you can do that in config file
@@ -215,3 +244,6 @@ On_ICyan="\[\033[0;106m\]"    # Cyan
 On_IWhite="\[\033[0;107m\]"   # White
 
 ```
+
+
+[⬆️Map](https://github.com/gafarchik/telegraminviter/edit/main/README.md#readme-map)
