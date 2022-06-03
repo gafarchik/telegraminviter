@@ -10,11 +10,10 @@
     - [API](https://github.com/gafarchik/telegraminviter/blob/main/README.md#api)
     - [Language](https://github.com/gafarchik/telegraminviter#language)
     - [Color](https://github.com/gafarchik/telegraminviter#color)
-
-
-
-
-
+ <br/>
+ <br/>
+ <br/>
+ <br/>
 
 ## how it's work
 it's sample source code of the telegram inviter bot. This bot work by telegram desktop api key. Bot parse users id from other groups and after that add users to selected group
@@ -28,35 +27,47 @@ erDiagram
     Invite }|..|{ 
 ```
 
+<br/>
+<br/>
+
 [⬆️Map](https://github.com/gafarchik/telegraminviter#readme-map)
 
-
-
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 ## installation
 install python 3.9
 
-
+<br/>
+<br/>
+<br/>
 
 #### install.py
 You can just open install.py and library will be installed 
 
-
-
+<br/>
+<br/>
+<br/>
 
 #### Windows
 Install python 3.9 from [python.org](https://www.python.org/downloads/windows/).
 Add python to PATH, you can do than in install window
-![Alt-текст](https://docs.blender.org/manual/ru/2.83/_images/about_contribute_install_windows_installer.png)
-
-After that open cmd and write
+![Alt-текст](https://docs.blender.org/manual/ru/2.83/_images/about_contribute_install_windows_installer.png)\
+After that open cmd and write<br/>
 
 ```cd bot_directory```
 and 
 
+<br/>
+
 ```python bet.py```
 
-
+<br/>
+<br/>
+<br/>
 
 #### Linux
 Install python 3.9
@@ -85,6 +96,11 @@ start bot
 ```
 python3 bet.py
 ```
+
+<br/>
+<br/>
+<br/>
+
 #### Mac
 Install [homebrew](https://brew.sh)
 ```
@@ -115,11 +131,16 @@ start bot
 python3 bet.py
 ```
 
+<br/>
+<br/>
+
 [⬆️Map](https://github.com/gafarchik/telegraminviter#readme-map)
 
-
-
-
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 ## settings
 #### API
@@ -128,6 +149,11 @@ If you want change api of the bot you can do that in config file
 apiid = 0 #api id
 apihash = 'asfaf' #api hash
 ```
+
+<br/>
+<br/>
+<br/>
+
 #### Language
 in config file you can change translate 
 
@@ -158,6 +184,11 @@ cuploaduserstext = 'Upload users from database'
 csleeptimetext = 'Sleep time'
 csleeptimechtext = 'Enter sleep time'
 ```
+
+<br/>
+<br/>
+<br/>
+
 #### Color
 if you want change colour you need special color codes
 you change only code without variable name
@@ -244,6 +275,7 @@ On_ICyan="\[\033[0;106m\]"    # Cyan
 On_IWhite="\[\033[0;107m\]"   # White
 
 ```
-
+<br/>
+<br/>
 
 [⬆️Map](https://github.com/gafarchik/telegraminviter#readme-map)
