@@ -1,5 +1,6 @@
 import os
 import random
+import config
 import requests
 from time import *
 from telethon import TelegramClient, events, sync
@@ -10,43 +11,43 @@ from telethon.errors import UserPrivacyRestrictedError,UserIdInvalidError
 from telethon.errors.rpcerrorlist import PeerFloodError,UserNotMutualContactError,UserChannelsTooMuchError,FloodWaitError
 
 
-api_id = 2040
-api_hash = 'b18441a1ff607e10a989891a5462e627'
+api_id = config.apiid
+api_hash = config.apihash
 
 
 client = TelegramClient('session', api_id, api_hash)
 client.start()
 
-re="\033[1;31m"
-black = "\033[0m"
-gr="\033[1;32m"
-cy="\033[1;36m"
+re=config.red
+black = config.black1
+gr=config.green
+cy=config.cyan
 
-autor = " "
-settingslang = "Settings"
-startinviting = "Start inviting"
-exitlang = "Exit"
-changetoken = "Change token"
-language = "Change language"
-back = "Back" 
-numberofaction = 'Enter the number of action: '
-errornumber = 'Error! Input correct number'
-newtoken = 'Enter new token: '
-success = 'Success! '
-userinvited = 'Users invited: '
-enterchat = 'Enter chat: '
-deletessesion = 'Delete session.session'
-nousers = 'List of users is empty'
-getusers = 'Parse users from groups'
-userparsed = 'Users added: '
-youchat = 'Enter your chat: '
-errorrstext = "Errors: "
-entercount = 'Enter user count: '
-uploadingtext = 'Uploading...'
-uploaduserstext = 'Upload users from database'
-sleeptimetext = 'Sleep time'
-sleeptimechtext = 'Enter sleep time'
-deletedatabase = 'Delete database'
+autor = config.cautor
+settingslang = config.csettingslang
+startinviting = config.cstartinviting
+exitlang = config.cexitlang
+changetoken = config.cchangetoken
+language = config.clanguage
+back = config.cback
+numberofaction = config.cnumberofaction
+errornumber = config.cerrornumber
+newtoken = config.cnewtoken
+success = config.csuccess
+userinvited = config.cuserinvited
+enterchat = config.centerchat
+deletessesion = config.cdeletessesion
+nousers = config.cnousers
+getusers = config.cgetusers
+userparsed = config.cuserparsed
+youchat = config.cyouchat
+errorrstext = config.cerrorrstext
+entercount = config.centercount
+uploadingtext = config.cuploadingtext
+uploaduserstext = config.cuploaduserstext
+sleeptimetext = config.csleeptimetext
+sleeptimechtext = config.csleeptimechtext
+deletedatabase = config.cdeletedatabase
 
 
 users = []
@@ -306,84 +307,7 @@ def changelanguage():
     logfile = open('session_log.txt','a')
     logfile.write(strftime("%H:%M:%S", gmtime())+' : language changed\n')
     logfile.close()
-    global autor
-    global settingslang
-    global startinviting
-    global exitlang
-    global changetoken
-    global language
-    global back
-    global getusers
-    global numberofaction
-    global errornumber
-    global newtoken
-    global success
-    global deletessesion
-    global enterchat
-    global userinvited
-    global nousers
-    global userparsed
-    global youchat
-    global entercount
-    global errorrstext
-    global uploadingtext
-    global uploaduserstext
-    global sleeptimechtext
-    global sleeptimetext
-    global deletedatabase
-    if success == 'Успех!':
-        autor = "   "
-        settingslang = "Settings"
-        startinviting = "Start inviting"
-        exitlang = "Exit"
-        changetoken = "Change token"
-        language = "Change language"
-        back = "Back" 
-        numberofaction = 'Enter the number of action: '
-        errornumber = 'Error! Input correct number'
-        newtoken = 'Enter new token: '
-        success = 'Success!'
-        userinvited = 'Users invited: '
-        enterchat = 'Enter chat: '
-        deletessesion = 'Delete session.session'
-        nousers = 'List of users is empty'
-        getusers = 'Parse users from groups'
-        userparsed = 'Users added: '
-        youchat = 'Enter your chat: '
-        errorrstext = "Errors: "
-        entercount = 'Enter user count: '
-        uploadingtext = 'Uploading...'
-        uploaduserstext = 'Upload users from database'
-        sleeptimetext = 'Sleep time'
-        sleeptimechtext = 'Enter sleep time'
-        deletedatabase = 'Delete database'
-
-    else:
-        autor = "  "
-        settingslang = "Настройки"
-        startinviting = "Начать приглашение"
-        exitlang = "Выход"
-        changetoken = "Изменить токен"
-        language = "Изменить язык"
-        back = "Назад" 
-        numberofaction = 'Введите номер действия: '
-        errornumber = 'Ошибка! Введите валидное число!'
-        newtoken = 'Введите новый токен: '
-        success = 'Успех!'
-        userinvited = 'Человек приглашено: '
-        enterchat = 'Введите название чата: '
-        deletessesion = 'Удалите session.session'
-        nousers = 'Список пользователей пуст'
-        getusers = 'Парсить пользователей из групп'
-        userparsed = 'Добавлено пользователей: '
-        youchat = 'Введите свой чат: '
-        errorrstext = "Ошибок: "
-        entercount = 'Введите количество пользователей: '
-        uploadingtext = 'Загрузка...'
-        uploaduserstext = 'Загрузить пользователей из базы данных'
-        sleeptimechtext = 'Введите новую зaдержку'
-        sleeptimetext = 'Задержка'
-        deletedatabase = 'Удалить базу данных'
+    config.change()
     settings()
 
 start()
