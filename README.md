@@ -13,8 +13,6 @@ erDiagram
     Bot ||--|{ Parce
     Parce ||--|{ Database : save
     Bot }|..|{ Get users : upload
-    Get users }|..|{ Database
-    database }|..|{ Invite
 ```
 
 ## installation
