@@ -23,9 +23,36 @@ install python 3.9
 #### install.py
 You can just open install.py and library will be installed 
 #### Windows
-Install python 3.9 from [python.org](https://www.python.org/downloads/windows/)\n
+Install python 3.9 from [python.org](https://www.python.org/downloads/windows/).
 Add python to PATH, you can do than in install window
 ![Alt-текст](https://docs.blender.org/manual/ru/2.83/_images/about_contribute_install_windows_installer.png)
+After that open cmd and write ```cd bot_directory``` and ```python bet.py```
 #### Linux
+Install python 3.9
+```
+$ sudo apt update
+$ sudo apt install software-properties-common
+$ sudo apt install python3.9
+```
+and check
+```
+$ python3.9 --version
+```
+```
+Output
+Python 3.9.1+
+```
+after that install library telethon
+```
+pip3 install telethon
+```
+open directory with bot
+```
+cd bot_directory
+```
+start bot
+```
+python3 bet.py
+```
 #### Mac
 ## examples
