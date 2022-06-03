@@ -6,6 +6,9 @@
     - [Linux](https://github.com/gafarchik/telegraminviter/blob/main/README.md#linux)
     - [Mac](https://github.com/gafarchik/telegraminviter/blob/main/README.md#mac)
 - [3.settings](https://github.com/gafarchik/telegraminviter/blob/main/README.md#settings)
+    -[API]()
+    -[Language]()
+    -[Color]()
 - [4.examples](https://github.com/gafarchik/telegraminviter/blob/main/README.md#examples)
 ## how it's work
 it's sample source code of the telegram inviter bot. This bot work by telegram desktop api key. Bot parse users id from other groups and after that add users to selected group
@@ -91,14 +94,43 @@ start bot
 python3 bet.py
 ```
 ## settings
+#### API
 If you want change api of the bot you can do that in config file
 ```Python
 apiid = 0 #api id
 apihash = 'asfaf' #api hash
 ```
-
+#### Language
 in config file you can change translate 
 
+change without variable name
+```
+cautor = " "
+csettingslang = "Settings"
+cstartinviting = "Start inviting"
+cexitlang = "Exit"
+cchangetoken = "Change token"
+clanguage = "Change language"
+cback = "Back" 
+cnumberofaction = 'Enter the number of action: '
+cerrornumber = 'Error! Input correct number'
+cnewtoken = 'Enter new token: '
+csuccess = 'Success! '
+cuserinvited = 'Users invited: '
+centerchat = 'Enter chat: '
+cdeletessesion = 'Delete session.session'
+cnousers = 'List of users is empty'
+cgetusers = 'Parse users from groups'
+cuserparsed = 'Users added: '
+cyouchat = 'Enter your chat: '
+cerrorrstext = "Errors: "
+centercount = 'Enter user count: '
+cuploadingtext = 'Uploading...'
+cuploaduserstext = 'Upload users from database'
+csleeptimetext = 'Sleep time'
+csleeptimechtext = 'Enter sleep time'
+```
+#### Color
 if you want change colour you need special color codes
 you change only code without variable name
 
