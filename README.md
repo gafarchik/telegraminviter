@@ -6,17 +6,16 @@
     - [Linux](https://github.com/gafarchik/telegraminviter/blob/main/README.md#linux)
     - [Mac](https://github.com/gafarchik/telegraminviter/blob/main/README.md#mac)
 - [3.settings](https://github.com/gafarchik/telegraminviter/blob/main/README.md#settings)
-    -[API]()
-    -[Language]()
-    -[Color]()
-- [4.examples](https://github.com/gafarchik/telegraminviter/blob/main/README.md#examples)
+    - [API](https://github.com/gafarchik/telegraminviter/blob/main/README.md#api)
+    - [Language](https://github.com/gafarchik/telegraminviter#language)
+    - [Color](https://github.com/gafarchik/telegraminviter#color)
 ## how it's work
 it's sample source code of the telegram inviter bot. This bot work by telegram desktop api key. Bot parse users id from other groups and after that add users to selected group
 ```mermaid
 erDiagram
-    Bot ||--|{ Parce : start_parsing
+    Bot |o--|{ Parce : start_parsing
     Parce ||--|{ Database : save
-    Bot }|..|{ Get_users : start_inviting
+    Bot }o..|{ Get_users : start_inviting
     Get_users }|..|{ database : upload
     database }|..|{ Invite : save_to_list
     Invite }|..|{ 
@@ -216,4 +215,3 @@ On_ICyan="\[\033[0;106m\]"    # Cyan
 On_IWhite="\[\033[0;107m\]"   # White
 
 ```
-## examples
